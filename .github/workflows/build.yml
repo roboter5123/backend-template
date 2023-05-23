@@ -44,7 +44,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build with Maven
-        run: mvn -B clean test jacoco:report --file pom.xml
+        run: mvn -B clean install test jacoco:report --file pom.xml
 
       - name: Add coverage to PR
         if: always()
