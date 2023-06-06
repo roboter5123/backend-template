@@ -225,6 +225,12 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
-
+    </build>    
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub roboter5123 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/roboter5123/REPO_NAME</url>
+        </repository>
+    </distributionManagement>
 </project>
