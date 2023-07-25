@@ -9,9 +9,9 @@
     - [ ] distributionManagment/repository
        - [ ] {Project Name} name of the repository
             
-- [ ] Packages
-    - [ ] com.roboter5123.{projectName}
-    - [ ] com.roboter5123.{projectName}.Application.java
+- [ ] src/main/java/com/roboter5123
+    - [ ] {projectName}
+    - [ ] {projectName}/Application.java
         - [ ] package statement
 
 - [ ] .github/workflows
