@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.roboter5123</groupId>
     <artifactId>{Project Name}</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.0-SNAPSHOT</version>
     <name>{Project Name}</name>
     <description>{Project description}</description>
     <properties>
