@@ -18,24 +18,22 @@ import io.swagger.annotations.ApiResponses;
 import io.swagger.annotations.SwaggerDefinition;
 import io.swagger.annotations.Tag;
 
-@Api(tags = "Ping Resource")
+
 @SwaggerDefinition(tags = {
         @Tag(name = "Ping Resource", description = "Used to test the availability of a service")
 })
-@Consumes(MediaType.APPLICATION_JSON)
-@Produces(MediaType.APPLICATION_JSON)
-@Path("/")
+@RestController
+@RequestMapping("/ping")
 public class PingResource {
 
     private static final Logger log = LoggerFactory.getLogger(PingResource.class);
 
-    @Path("/ping")
-    @GET
+    @GetMapping()
     @ApiOperation(value = "Ping", response = Ping.class)
     @ApiResponses({@ApiResponse(code = 200, message = "Current time")})
-    public Response ping() {
+    public Ping ping() {
         log.info("ping");
-        return Response.ok(new Ping()).build();
+        return new Ping().build();
     }
 
 }
