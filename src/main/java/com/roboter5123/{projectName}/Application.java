@@ -1,12 +1,9 @@
-package com.petdaycare.service;
-
-import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
+package com.roboter5123.{projectName};
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@EnableEncryptableProperties
 public class Application {
 
 	public static void main(String[] args) {
