@@ -1,20 +1,19 @@
 ##To do uppon cloning
 
 - [ ] Pom.xml
-    - [ ] artifactId
+    - [ ] artifactId (lowerCamelCase)
     - [ ] name
     - [ ] description
     - [ ] build
-        - [ ] finalName 
+        - [ ] finalName (lowerCamelCase)
     - [ ] distributionManagment/repository
        - [ ] {Project Name} name of the repository
 - [ ] Dockerfile
-    - [ ] {Project Name} project name
+    - [ ] {Project Name} project name (lowerCamelCase)
             
 - [ ] src/main/java/com/roboter5123
-    - [ ] {projectName}
-    - [ ] {projectName}/Application.java
-        - [ ] package statement
+    - [ ] {projectName} (lowerCamelCase)
+    - [ ] package statements
 
 - [ ] .github/workflows
     - [ ] settings.xml

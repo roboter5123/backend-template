@@ -1,5 +1,3 @@
-package at.dbeg.eos2.service.sandbox.campbookpascalgehringer.rest.model;
-
 import java.time.OffsetDateTime;
 
 /**
