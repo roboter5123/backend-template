@@ -8,6 +8,8 @@
         - [ ] finalName 
     - [ ] distributionManagment/repository
        - [ ] {Project Name} name of the repository
+- [ ] Dockerfile
+    - [ ] {Project Name} project name
             
 - [ ] src/main/java/com/roboter5123
     - [ ] {projectName}
