@@ -1,13 +1,11 @@
 ###To do uppon cloning
 
-- [ ] Rename SampleRestApplication.java
-- [ ] changes in Pom.xml
-    - [ ] groupId
+- [ ] Pom.xml
     - [ ] artifactId
-    - [ ] version
     - [ ] name
     - [ ] description
-    - [ ] Under distributionManagment
-       - [ ] change roboter5123 to your username
-       - [ ] change REPO_NAME to the name of the repository
+    - [ ] build
+        - [ ] finalName 
+    - [ ] distributionManagment/repository
+       - [ ] {Project Name} name of the repository
 
