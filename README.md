@@ -13,4 +13,5 @@
     - [ ] com.roboter5123.{projectName}
     - [ ] com.roboter5123.{projectName}.Application.java
         - [ ] package statement  
-
+- [ ] .github/workflows/settings.xml
+    - [ ] profiles/profile/repositories/repository/url {Project Name} to repositoryname
