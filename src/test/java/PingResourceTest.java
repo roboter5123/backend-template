@@ -1,6 +1,6 @@
-import com.roboter5123.play.backend.quizxelquestionservice.Application;
-import com.roboter5123.play.backend.quizxelquestionservice.rest.PingResource;
-import com.roboter5123.play.backend.quizxelquestionservice.rest.model.Ping;
+import com.roboter5123.template.Application;
+import com.roboter5123.template.rest.PingResource;
+import com.roboter5123.template.rest.model.Ping;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
