@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8080
-ADD /target/{Project Name}.jar /{Project Name}.jar
-CMD java -jar /{Project Name}.jar
+ADD /target/backend-template.jar /backend-template.jar
+CMD java -jar /backend-template.jar
