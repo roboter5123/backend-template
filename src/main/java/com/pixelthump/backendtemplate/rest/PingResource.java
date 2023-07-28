@@ -1,9 +1,9 @@
-package com.roboter5123.backendtemplate.rest;
+package com.pixelthump.backendtemplate.rest;
+import com.pixelthump.backendtemplate.rest.model.Ping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.roboter5123.backendtemplate.rest.model.Ping;
 
 @RestController
 @RequestMapping("/ping")

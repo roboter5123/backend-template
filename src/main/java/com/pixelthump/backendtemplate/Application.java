@@ -1,4 +1,4 @@
-package com.roboter5123.backendtemplate;
+package com.pixelthump.backendtemplate;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

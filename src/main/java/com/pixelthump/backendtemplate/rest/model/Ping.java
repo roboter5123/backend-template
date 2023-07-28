@@ -1,4 +1,4 @@
-package com.roboter5123.backendtemplate.rest.model;
+package com.pixelthump.backendtemplate.rest.model;
 import java.time.OffsetDateTime;
 
 /**
