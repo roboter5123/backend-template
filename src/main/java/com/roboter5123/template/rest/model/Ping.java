@@ -1,3 +1,4 @@
+package com.roboter5123.template.rest.model;
 import java.time.OffsetDateTime;
 
 /**
