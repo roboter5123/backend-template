@@ -1,6 +1,6 @@
-import com.roboter5123.template.Application;
-import com.roboter5123.template.rest.PingResource;
-import com.roboter5123.template.rest.model.Ping;
+import com.roboter5123.backend-template.Application;
+import com.roboter5123.backend-template.rest.PingResource;
+import com.roboter5123.backend-template.rest.model.Ping;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
