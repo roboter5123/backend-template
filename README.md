@@ -3,9 +3,9 @@
 - [ ] Pom.xml
     - [X] package name change roboter5123 to repoowner in all lowercase
     - [ ] artifactId to reponame in all lowercase
-    - [ ] properties
-        - [ ] git.repo.owner
-        - [ ] git.repo.ownerlowercase
+    - [x] properties
+        - [x] git.repo.owner
+        - [x] git.repo.ownerlowercase
     - [ ] name
     - [ ] description
 - [ ] src/main/java/com/roboter5123
