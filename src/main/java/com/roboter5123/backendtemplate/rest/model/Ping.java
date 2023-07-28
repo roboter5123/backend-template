@@ -6,7 +6,7 @@ import java.time.OffsetDateTime;
  */
 public class Ping {
 
-	private OffsetDateTime time;
+	private final OffsetDateTime time;
 
 	public Ping() {
 		time = OffsetDateTime.now();
