@@ -1,4 +1,4 @@
-package com.roboter5123.backend-template;
+package com.roboter5123.backendtemplate;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
