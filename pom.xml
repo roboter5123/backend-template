@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.roboter5123</groupId>
     <artifactId>template</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.0.0-SNAPSHOT</version>
     <name>Template </name>
     <description>This is a template for backend java services</description>
     <properties>
