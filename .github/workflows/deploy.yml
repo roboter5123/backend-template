@@ -52,3 +52,4 @@ jobs:
           dockerfile: Dockerfile
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
+          buildArgs: JAR_NAME=${{ github.event.repository.name }}
