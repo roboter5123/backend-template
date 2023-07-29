@@ -1,5 +1,8 @@
 ##To do uppon cloning
 
+- [ ] github
+    - [ ] add ENCRYPTION_PASSWORD as a secret. Should be set to the password used to encrypt the application.properties 
+
 - [ ] Pom.xml
     - [ ] package name change roboter5123 to repoowner in all lowercase
     - [ ] artifactId to reponame in all lowercase
