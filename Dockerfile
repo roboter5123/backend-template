@@ -1,5 +1,5 @@
 FROM openjdk:17
-ARG JAR_NAME
 EXPOSE 8080
-ADD /target/${JAR_NAME}.jar /${JAR_NAME}.jar
-CMD java -jar /${JAR_NAME}.jar
+ARG encryption_password
+ADD /target/sesh-service.jar /sesh-service.jar
+CMD java -Djasypt.encryptor.password=$encryption_password -jar /sesh-service.jar
