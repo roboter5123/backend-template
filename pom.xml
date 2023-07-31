@@ -182,7 +182,7 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>${project.artifactId}</finalName>
+        <finalName>service</finalName>
     </build>
     <distributionManagement>
         <repository>
