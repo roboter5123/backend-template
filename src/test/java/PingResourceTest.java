@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @SpringBootTest(classes = Application.class)
 @TestPropertySource(properties = {
     "spring.jpa.hibernate.ddl-auto=none", // Disable auto DDL generation
-    "spring.datasource.url=" // Set an empty URL to disable the default data source
+    "spring.datasource.url=jdbc:mariadb://roboter5123.com:3306/ // Set an empty URL to disable the default data source
 })
 class PingResourceTest {
 
