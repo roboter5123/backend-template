@@ -11,7 +11,7 @@ import java.time.OffsetDateTime;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@DataJpaTest(classes = Application.class)
+@DataJpaTest
 @TestPropertySource(properties = {
     "spring.jpa.hibernate.ddl-auto=none", // Disable auto DDL generation
     "spring.datasource.url=" // Set an empty URL to disable the default data source
