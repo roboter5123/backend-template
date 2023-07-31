@@ -1,4 +1,4 @@
-import com.roboter5123.backendtemplate.Application;
+import com.roboter5123.backendtemplate.TestApplication;
 import com.roboter5123.backendtemplate.rest.PingResource;
 import com.roboter5123.backendtemplate.rest.model.Ping;
 import org.junit.jupiter.api.Test;
