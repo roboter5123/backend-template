@@ -13,4 +13,10 @@ public class MiscConfig {
 
         return new Random();
     }
+
+    @Bean
+    RestTemplate getRestTemplate() {
+
+        return new RestTemplate();
+    }
 }
