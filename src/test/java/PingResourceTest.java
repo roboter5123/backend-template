@@ -9,7 +9,7 @@ import java.time.OffsetDateTime;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = TestApplication.class)
 class PingResourceTest {
 
     @Autowired
